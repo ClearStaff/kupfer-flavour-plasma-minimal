@@ -1,0 +1,16 @@
+pkgbase = flavour-plasma-minimal
+	pkgdesc = Kupfer flavour: The qt-based KDE desktop environment (minimal edition)
+	pkgver = 1.0
+	pkgrel = 1
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL3
+	depends = plasma-meta
+	depends = plasma-wayland-session
+	depends = sddm
+	depends = networkmanager
+	source = plasma.txt
+	sha256sums = SKIP
+
+pkgname = flavour-plasma-minimal
